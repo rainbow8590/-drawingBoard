@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <link rel="stylesheet" href="write.css"/>
+</head>
+<body>
+<div class="wrap">
+    <div class="inner">
+        <div class="pens" id="pens">
+            <button>铅笔</button>
+            <button>直线</button>
+            <button>矩形</button>
+            <button>圆形</button>
+            <button>星形</button>
+            <button>弧线</button>
+            <button>多边形</button>
+            <button>左右箭头</button>
+            <button>上下箭头</button>
+
+        </div>
+        <div class="lineStyle">
+            <div class="draw">
+                <div class="stroke">描边</div>
+                <div class="fill">填充</div>
+                <div class="delet">删除</div>
+            </div>
+
+            <div class="item">
+                <span>样式</span>
+                <select id="lineStyle">
+                    <option value="shixian">实线</option>
+                    <option value="xuxian">虚线</option>
+                </select>
+            </div>
+            <div class="item">
+                <span>线宽</span>
+                <select id="lineWidth">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                    <option value="6">6</option>
+                    <option value="8">8</option>
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                    <option value="16">16</option>
+                </select>
+            </div>
+            <div class="item">
+                <span>边数</span>
+                <select id="bianshu">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                    <option value="16">16</option>
+                    <option value="18">18</option>
+                    <option value="20">20</option>
+                    <option value="22">22</option>
+                    <option value="24">24</option>
+                    <option value="26">26</option>
+                </select>
+            </div>
+        </div>
+        <div class="colors" id="colors">
+            <span>颜色</span>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+            <div class="items"></div>
+        </div>
+        <div class="selectColor">
+            <div class="changecolor">
+                <span>编辑颜色:</span><input type="color" id="changeColors"/>
+            </div>
+
+            <div class="item">
+                <button id="saves">保存</button>
+            </div>
+            <div class="item item1">
+                <button id="eraser">橡皮擦</button>
+                <button id="clears">清除画布</button>
+            </div>
+        </div>
+
+
+        <!--<span>填充颜色</span>
+        <select id="fillstyle">
+        <option value="#999933">#999933</option>
+        <option value="#FFFFCC">#FFFFCC</option>
+        <option value="#CC99CC">#CC99CC</option>
+        <option value="#CC9966">#CC9966</option>
+        <option value="#666666">#666666</option>
+        <option value="#666699">#666699</option>
+        <option value="#0099cc">#0099cc</option>
+        <option value="red">red</option>
+        <option value="pink">pink</option>
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+        <option value="yellow">yellow</option>
+        <option value="purple">purple</option>
+        </select>
+        <span>描边颜色</span>
+        <select id="strokestyle">
+        <option value="#999933">#999933</option>
+        <option value="#FFFFCC">#FFFFCC</option>
+        <option value="#CC99CC">#CC99CC</option>
+        <option value="#CC9966">#CC9966</option>
+        <option value="#666666">#666666</option>
+        <option value="#666699">#666699</option>
+        <option value="#0099cc">#0099cc</option>
+        <option value="red">red</option>
+        <option value="pink">pink</option>
+        <option value="blue">blue</option>
+        <option value="green">green</option>
+        <option value="yellow">yellow</option>
+        <option value="purple">purple</option>
+        </select>-->
+
+    </div>
+</div>
+
+	<canvas id="canvas"></canvas>
+	<canvas id="canvas1"></canvas>
+
+
+
+
+    <script src="jquery-1.11.1/jquery.min.js"></script>
+    <script src="write.js"></script>
+</body>
+</html>

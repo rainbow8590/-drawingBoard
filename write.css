@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#canvas{
+    cursor: default;
+    box-sizing:border-box;
+}
+#canvas1{
+    position: absolute;
+    left: 0;
+    top: 110px;
+    z-index: -1;
+    cursor: default;
+    box-sizing:border-box;
+}
+
+.wrap{
+    width: 100%;
+    height: 100px;
+    background: #f8f8f8;
+    padding: 5px 0;
+}
+.wrap .inner{
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+.wrap .pens{
+    width: 198px;
+    height: 94px;
+    padding-top: 4px;
+    padding-left: 6px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+.wrap .pens button{
+    display: block;
+    width: 60px;
+    height: 28px;
+    float: left;
+    margin: 0 6px 3px 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    outline: none;
+}
+.wrap .pens button.cur{
+    background: #f2f2f2;
+}
+.wrap .lineStyle{
+    float: left;
+    margin-right: 10px;
+    width: 135px;
+    height: 90px;
+    padding: 4px 6px;
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+.wrap .lineStyle .draw{
+    width: 45px;
+    height: 100%;
+    float: left;
+
+}
+.wrap .lineStyle .stroke{
+    width: 30px;
+    height: 20px;
+    border: 2px solid #09c;
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.wrap .lineStyle .stroke.curr{
+    background: #333;
+    color: #fff;
+}
+.wrap .lineStyle .fill{
+    width: 30px;
+    height: 20px;
+    background: #c99;
+    color: #ffffff;
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 10px;
+    line-height: 22px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+.wrap .lineStyle .fill.curr{
+    border: 2px solid orange;
+
+}
+
+.wrap .lineStyle .delet{
+    width: 34px;
+    height: 20px;
+    border: 1px dashed blue;
+    color: #000;
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 0px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.wrap .lineStyle .delet.curr{
+    border: 2px solid #ccc;
+    width: 30px;
+    height: 24px;
+}
+.wrap .lineStyle .item{
+    height: 30px;
+    float: left;
+}
+.wrap .lineStyle select{
+    width: 60px;
+}
+
+.wrap .colors{
+    width: 500px;
+    height: 90px;
+    padding: 4px;
+    border: 1px solid #ddd;
+    float: left;
+    font-size: 12px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.wrap .colors span{
+    float: left;
+    padding-right: 2px;
+    padding-top: 5px;
+}
+.wrap .colors .items{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    margin: 3px 2px;
+    float: left;
+}
+
+.wrap .selectColor {
+    width: 140px;
+    height: 90px;
+    padding: 4px;
+    border: 1px solid #ddd;
+    float: left;
+    font-size: 12px;
+    overflow: hidden;
+}
+.wrap .selectColor .changecolor{
+    height: 34px;
+    overflow: hidden;
+}
+.wrap .selectColor .changecolor span{
+    float: left;
+    padding-top: 6px;
+    margin-right: 5px;
+    padding-left: 8px;
+}
+.wrap .selectColor .changecolor input{
+    width: 40px;
+    height: 24px;
+    float: left;
+    background: #fff;
+    padding: 1px 2px;
+}
+.wrap .selectColor .item{
+    height: 30px;
+}
+.wrap .selectColor .item button{
+    display: block;
+    width: 80px;
+    margin-left: 30px;
+}
+.wrap .selectColor .item1 button{
+    display: inline-block;
+    width: 58px;
+    margin-left: 6px;
+}
